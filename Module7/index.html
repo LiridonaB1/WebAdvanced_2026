@@ -9,17 +9,19 @@
     
       <form action="">
 
+        <fieldset>
+          <legend>Personal Information</legend>
          <label for="firstname"> FirstName: </label> <br>
-         <input type="text" id="firstname" name="firstname"> <br>
+         <input type="text" id="firstname" name="firstname" value="John" readonly > <br>
 
          <label for="lastname"> LastName: </label> <br>
-         <input type="text" id="lastname" name="lastname"> <br>
+         <input type="text" id="lastname" name="lastname" > <br>
 
          <label for="email">Email:</label><br>
-         <input type="email" id="email" name="email"><br>
+         <input type="email" id="email" name="email" size="40" required><br>
 
          <label for="password">Password:</label><br>
-         <input type="password" id="password" name="password"><br>
+         <input type="password" id="password" name="password" placeholder="Password"><br>
 
          <label for="gender">Gender:</label><br>
 
@@ -46,19 +48,13 @@
         </select> <br><br>
        
        
-        <textarea name="message" id="message" rows="10" cols="20"> </textarea><br>
+        <textarea name="message" id="message" rows="10" cols="20" maxlength="50"> </textarea><br>
 
         <input type="submit" name="submit" id="submit">
 
-
+       </fieldset>
 
       </form>
-
-
-
-
-
-
 
 
 
