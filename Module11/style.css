@@ -1,0 +1,18 @@
+body{
+    background: url("nature.jpg");
+    background-size: cover;
+}
+
+p {
+    margin-left:100px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+
+div{
+    border:5px solid blue;
+    width: 300px;
+    margin: 20px;
+    padding:50px;
+}
